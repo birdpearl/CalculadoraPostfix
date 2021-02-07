@@ -1,4 +1,11 @@
-
+/*
+Nombre de la clase: stackvector.java
+Programadora:Ana gabriela Ramírez
+Lenguaje: java
+Fecha de modificación:6/2/21
+*/
+//se importan los paquetes necesarios
+package calcupk;
 
 import java.util.Vector;
 //import java.util.ArrayList;
