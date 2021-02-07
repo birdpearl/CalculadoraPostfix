@@ -1,4 +1,4 @@
-package calcupk;
+
 import java.util.Scanner;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -18,8 +18,10 @@ public class drivercalcu {
 		}*/
 		
 		System.out.println("\n Bienbenido al programa de calculadora POSTFIX");
+
+		String temp = cal.decode("/Users/stefanoaragoni/Desktop/calcupk/datos.txt");
 		
-		System.out.println("\n"+cal.decode("datos.txt"));
+		System.out.println("\n"+temp);
 		
 
 	}

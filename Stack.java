@@ -1,4 +1,4 @@
-package calcupk;
+
 
 public interface Stack<E>{
 
