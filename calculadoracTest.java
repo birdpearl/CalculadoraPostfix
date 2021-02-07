@@ -22,21 +22,21 @@ public class calculadoracTest {
 	@Test//test de resta
 	public void restatest() {
 		calculadorac cal = new calculadorac();
-		int result =cal.suma(6,5);
-		assertEquals(11, result);
+		int result =cal.resta(6,5);
+		assertEquals(1, result);
 	}
 
 	@Test//test de división
 	public void divitest() {
 		calculadorac cal = new calculadorac();
-		int result =cal.suma(6,5);
-		assertEquals(11, result);
+		int result =cal.division(6,2);
+		assertEquals(3, result);
 	}
 
 	@Test//test de multiplicación
 	public void multitest() {
 		calculadorac cal = new calculadorac();
-		int result =cal.suma(6,5);
-		assertEquals(11, result);
+		int result =cal.multiplicacion(6,5);
+		assertEquals(30, result);
 	}
 }
